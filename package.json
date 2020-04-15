@@ -1,0 +1,8 @@
+{
+  "name": "expenses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JesseDavda/expenses",
+  "author": "Jesse Davda <jessedavda@gmail.com>",
+  "license": "MIT"
+}
