@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/JesseDavda/expenses",
   "author": "Jesse Davda <jessedavda@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }

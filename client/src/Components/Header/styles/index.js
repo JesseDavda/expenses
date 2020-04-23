@@ -12,7 +12,6 @@ export const HeaderContainer = styled(Flex)`
 `;
 
 export const Title = styled.h2`
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
 `;

@@ -4,7 +4,7 @@ import * as Styled from './styles';
 
 const Header = () => (
   <Styled.HeaderContainer>
-    <Styled.Title>expenses</Styled.Title>
+    <Styled.Title>expense tracker</Styled.Title>
   </Styled.HeaderContainer>
 )
 

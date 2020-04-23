@@ -1,15 +1,22 @@
 import React from 'react';
 
-import { AuthContextProvider } from '../../contexts/authContext';
+import { AuthContextProvider } from '../contexts/authContext';
 import Header from '../Components/Header';
+import Expenses from '../Components/Expenses';
 import * as Styled from './styles';
+import { ExpensesContextProvider } from '../contexts/expensesContext';
 
 const App = () => {
   return(
     <AuthContextProvider>
-      <Styled.container>
-        <Header />
-      </Styled.container>
+      <ExpensesContextProvider>
+        <Styled.container>
+          <Header />
+          <Styled.CentralContainer>
+            <Expenses />
+          </Styled.CentralContainer>
+        </Styled.container>
+      </ExpensesContextProvider>
     </AuthContextProvider>
   )
 }

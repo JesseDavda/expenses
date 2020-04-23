@@ -9,3 +9,12 @@ export const container = styled(Flex)`
   padding-top: 40px;
   box-sizing: border-box;
 `;
+
+export const CentralContainer = styled.div`
+  min-width: 800px;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: none;
+  margin: 0 auto;
+  padding: 30px 10px;
+`;
